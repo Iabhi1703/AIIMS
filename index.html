@@ -537,129 +537,133 @@
 
 </center>
              
-	
-      <!-- end section -->
-      <div id="getintouch" class="section wb wow fadeIn" style="padding-bottom:0;">
-         <div class="container">
-            <div class="heading">
-               <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
-               <h2>Get in Touch</h2>
-            </div>
-         </div>
-         <div class="contact-section">
-            <div class="form-contant">
-               <form id="ajax-contact" action="assets/mailer.php" method="post">
-                  <div class="row">
-                     <div class="col-md-6">
+<!-- Contact Form Section -->
+<div id="getintouch" class="section wb wow fadeIn" style="padding-bottom:0;">
+    <div class="container">
+        <div class="heading">
+            <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span>
+            <h2>Get in Touch</h2>
+        </div>
+    </div>
+    <div class="contact-section">
+        <div class="form-contant">
+            <form id="ajax-contact" action="assets/mailer.php" method="post">
+                <div class="row">
+                    <div class="col-md-6">
                         <div class="form-group in_name">
-                           <input type="text" class="form-control" placeholder="Name" required="required">
+                            <input type="text" class="form-control" placeholder="Name" required="required">
                         </div>
-                     </div>
-                     <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="email" class="form-control" placeholder="E-mail" required="required">
+                            <input type="email" class="form-control" placeholder="E-mail" required="required">
                         </div>
-                     </div>
-                     <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="tel" class="form-control" id="phone" placeholder="Phone" required="required">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone" required="required">
                         </div>
-                     </div>
-                     <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
                         <div class="form-group in_email">
-                           <input type="text" class="form-control" id="subject" placeholder="Subject" required="required">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject" required="required">
                         </div>
-                     </div>
-                     <div class="col-md-12">
-                        <div class="form-group in_message"> 
-                           <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group in_message">
+                            <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"></textarea>
                         </div>
                         <div class="actions">
-                           <input type="submit" value="Send Message" name="submit" id="submitButton" class="btn small" title="Submit Your Message!">
+                            <input type="submit" value="Send Message" name="submit" id="submitButton" class="btn small" title="Submit Your Message!">
                         </div>
-                     </div>
-                  </div>
-               </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Google Map using iframe -->
+        <div class="map-container" style="width:100%; height:450px;">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.7068327572747!2d77.20747017528657!3d28.567177375700542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce26f903969d7%3A0x8367180c6de2ecc2!2sAll%20India%20Institute%20Of%20Medical%20Sciences%20Delhi!5e1!3m2!1sen!2sin!4v1728368078937!5m2!1sen!2sin" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer id="footer" class="footer-area wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo padding">
+                    <a href=""><img src="images/logo.png" alt=""></a>
+                    <p>"AIIMS Delhi stands as a beacon of excellence in medical education and healthcare..."</p>
+                </div>
             </div>
-            <div id="googleMap" style="width:100%;height:450px;"></div>
-         </div>
-      </div>
-      <footer id="footer" class="footer-area wow fadeIn">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="logo padding">
-                     <a href=""><img src="images/logo.png" alt=""></a>
-                     <p>"AIIMS Delhi stands as a beacon of excellence in medical education and healthcare, with its world-class facilities and renowned faculty."
-"As one of the premier medical institutions in India, AIIMS Delhi continues to shape the future of healthcare through cutting-edge research and patient care."</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="footer-info padding">
-                     <h3>CONTACT US</h3>
-                     <p><i class="fa fa-map-marker" aria-hidden="true"></i>  ll India Institute Of Medical Sciences, New Delhi</p>
-                     <p><i class="fa fa-paper-plane" aria-hidden="true"></i> @gsuite.aiims.edu</p>
-                     <p><i class="fa fa-phone" aria-hidden="true"></i> Fax : +91-11-26588663 / 26588641</p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="subcriber-info">
-                     <h3>For more detail..</h3>
-                     <p>Get healthy news, tip and solutions to your problems from our experts.</p>
-                     <div class="subcriber-box">
+            <div class="col-md-4">
+                <div class="footer-info padding">
+                    <h3>CONTACT US</h3>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> All India Institute Of Medical Sciences, New Delhi</p>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i> @gsuite.aiims.edu</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> Fax: +91-11-26588663 / 26588641</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subcriber-info">
+                    <h3>For more detail...</h3>
+                    <p>Get healthy news, tips, and solutions from our experts.</p>
+                    <div class="subcriber-box">
                         <form id="mc-form" class="mc-form">
-                           <div class="newsletter-form">
-                              <input type="email" autocomplete="off" id="mc-email" placeholder="Email address" class="form-control" name="EMAIL">
-                              <button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button> 
-                              <div class="clearfix"></div>
-                              <!-- mailchimp-alerts Start -->
-                              <div class="mailchimp-alerts">
-                                 <div class="mailchimp-submitting"></div>
-                                 <!-- mailchimp-submitting end -->
-                                 <div class="mailchimp-success"></div>
-                                 <!-- mailchimp-success end -->
-                                 <div class="mailchimp-error"></div>
-                                 <!-- mailchimp-error end -->
-                              </div>
-                              <!-- mailchimp-alerts end -->
-                           </div>
+                            <div class="newsletter-form">
+                                <input type="email" autocomplete="off" id="mc-email" placeholder="Email address" class="form-control" name="EMAIL">
+                                <button class="mc-submit" type="submit"><i class="fa fa-paper-plane"></i></button>
+                                <div class="clearfix"></div>
+                                <div class="mailchimp-alerts">
+                                    <div class="mailchimp-submitting"></div>
+                                    <div class="mailchimp-success"></div>
+                                    <div class="mailchimp-error"></div>
+                                </div>
+                            </div>
                         </form>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </footer>
-      <div class="copyright-area wow fadeIn">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-8">
-                  <div class="footer-text">
-                     <p>© 2023 All rights reserved by <a id="tw" href="https://themewagon.com/" target="_blank">@Abhishek_Shukla & Renu_Bisht.</a></p>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="social">
-                     <ul class="social-links">
+        </div>
+    </div>
+</footer>
+
+<div class="copyright-area wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="footer-text">
+                    <p>© 2023 All rights reserved by <a id="tw" href="https://themewagon.com/" target="_blank">@Abhishek_Shukla & Renu_Bisht.</a></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="social">
+                    <ul class="social-links">
                         <li><a href=""><i class="fa fa-rss"></i></a></li>
                         <li><a href=""><i class="fa fa-facebook"></i></a></li>
                         <li><a href=""><i class="fa fa-twitter"></i></a></li>
                         <li><a href=""><i class="fa fa-google-plus"></i></a></li>
                         <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                        <li><a href=""><i class="fa fa-pinterest"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
+                      
+                    </ul>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- end copyrights -->
-      <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-      <!-- all js files -->
-      <script src="js/all.js"></script>
-      <!-- all plugins -->
-      <script src="js/custom.js"></script>
-      <!-- map -->
-     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNUPWkb4Cjd7Wxo-T4uoUldFjoiUA1fJc&callback=myMap"></script>
-   </body>
+        </div>
+    </div>
+</div>
+
+<!-- End JS Files -->
+<script src="js/all.js"></script>
+<script src="js/custom.js"></script>
+</body>
 </html>
